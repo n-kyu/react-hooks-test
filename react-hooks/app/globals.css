@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  
+
 }
 
 body {
@@ -11,6 +11,7 @@ body {
   bg-zinc-700
   text-white
   flex
+  flex-col
   items-center
   justify-center
 }
