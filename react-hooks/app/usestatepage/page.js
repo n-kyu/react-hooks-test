@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function useStatePage() {
@@ -13,7 +14,7 @@ export default function useStatePage() {
 
     return (
         <>
-            <div>
+            <div className="mb-12">
                 <h1 className="mt-12 mb-12 text-5xl">{count}</h1>
                 <button
                     onClick={incrementCount}
@@ -22,6 +23,9 @@ export default function useStatePage() {
                     Increment
                 </button>
             </div>
+            <Link className="hover:text-black transform transition" href="/">
+                Back to Home
+            </Link>
         </>
     );
 }
