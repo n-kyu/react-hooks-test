@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  
+}
+
+body {
+  @apply
+  bg-zinc-700
+  text-white
+  flex
+  items-center
+  justify-center
+}
+
+.principal-container {
+  @apply
+  px-4
+  max-w-[1440px]
+}
