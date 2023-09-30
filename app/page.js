@@ -17,6 +17,12 @@ export default function Home() {
                 >
                     useEffect
                 </Link>
+                <Link
+                    className="hover:text-black transform transition mb-2"
+                    href="/userefpage"
+                >
+                    useRef
+                </Link>
             </div>
         </>
     );
